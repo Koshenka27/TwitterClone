@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B3EB57AB2A792EA9005BD552 /* TwitterCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB57AA2A792EA9005BD552 /* TwitterCloneApp.swift */; };
-		B3EB57AD2A792EA9005BD552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB57AC2A792EA9005BD552 /* ContentView.swift */; };
+		B3EB57AD2A792EA9005BD552 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB57AC2A792EA9005BD552 /* TweetView.swift */; };
 		B3EB57AF2A792EAA005BD552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EB57AE2A792EAA005BD552 /* Assets.xcassets */; };
 		B3EB57B22A792EAA005BD552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EB57B12A792EAA005BD552 /* Preview Assets.xcassets */; };
+		B3EB57B92A793507005BD552 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB57B82A793507005BD552 /* HomeView.swift */; };
+		B3EB57BB2A795491005BD552 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB57BA2A795491005BD552 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3EB57A72A792EA9005BD552 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EB57AA2A792EA9005BD552 /* TwitterCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneApp.swift; sourceTree = "<group>"; };
-		B3EB57AC2A792EA9005BD552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3EB57AC2A792EA9005BD552 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
 		B3EB57AE2A792EAA005BD552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3EB57B12A792EAA005BD552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3EB57B82A793507005BD552 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B3EB57BA2A795491005BD552 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				B3EB57AA2A792EA9005BD552 /* TwitterCloneApp.swift */,
-				B3EB57AC2A792EA9005BD552 /* ContentView.swift */,
+				B3EB57AC2A792EA9005BD552 /* TweetView.swift */,
+				B3EB57B82A793507005BD552 /* HomeView.swift */,
+				B3EB57BA2A795491005BD552 /* ProfileView.swift */,
 				B3EB57AE2A792EAA005BD552 /* Assets.xcassets */,
 				B3EB57B02A792EAA005BD552 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3EB57AD2A792EA9005BD552 /* ContentView.swift in Sources */,
+				B3EB57BB2A795491005BD552 /* ProfileView.swift in Sources */,
+				B3EB57B92A793507005BD552 /* HomeView.swift in Sources */,
+				B3EB57AD2A792EA9005BD552 /* TweetView.swift in Sources */,
 				B3EB57AB2A792EA9005BD552 /* TwitterCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
